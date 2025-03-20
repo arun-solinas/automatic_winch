@@ -1,0 +1,45 @@
+../Core/Inc/modbus_motor.h:94:5:u16 Modbus_CalculateCRC(u8*, u16)	4
+../Core/Inc/modbus_motor.h:113:4:u8 Modbus_SendCommand(u8*, u16)	2
+../Core/Inc/modbus_motor.h:159:4:u8 Motor_Excitation_ON(u8)	1
+../Core/Inc/modbus_motor.h:182:4:u8 Motor_Excitation_OFF(u8)	1
+../Core/Inc/modbus_motor.h:206:4:u8 Motor_Speed_Control(u8, i16)	2
+../Core/Inc/modbus_motor.h:279:4:u8 Motor_CW_Low_Speed(uint8_t)	2
+../Core/Inc/modbus_motor.h:284:4:u8 Motor_CW_Mid_Speed(u8)	2
+../Core/Inc/modbus_motor.h:289:4:u8 Motor_CW_High_Speed(u8)	2
+../Core/Inc/modbus_motor.h:295:4:u8 Motor_CCW_Low_Speed(u8)	2
+../Core/Inc/modbus_motor.h:300:4:u8 Motor_CCW_Mid_Speed(u8)	2
+../Core/Inc/modbus_motor.h:305:4:u8 Motor_CCW_High_Speed(u8)	2
+../Core/Inc/modbus_motor.h:310:4:u8 Motor_Stop(u8)	1
+../Core/Inc/ads1115_ads1015.h:116:13:void writeRegister(ADS1xx5_I2C*, uint8_t, uint16_t)	1
+../Core/Inc/ads1115_ads1015.h:122:17:uint16_t readRegister(ADS1xx5_I2C*, uint8_t)	1
+../Core/Inc/ads1115_ads1015.h:130:13:void ADSbegin(ADS1xx5_I2C*)	2
+../Core/Inc/ads1115_ads1015.h:137:6:void ADS1015(ADS1xx5_I2C*, I2C_HandleTypeDef*, uint8_t)	1
+../Core/Inc/ads1115_ads1015.h:147:6:void ADS1115(ADS1xx5_I2C*, I2C_HandleTypeDef*, uint8_t)	1
+../Core/Inc/ads1115_ads1015.h:170:6:void ADSsetGain(ADS1xx5_I2C*, adsGain_t)	1
+../Core/Inc/ads1115_ads1015.h:175:11:adsGain_t ADSgetGain(ADS1xx5_I2C*)	1
+../Core/Inc/ads1115_ads1015.h:180:10:uint16_t ADSreadADC_SingleEnded(ADS1xx5_I2C*, uint8_t)	6
+../Core/Inc/ads1115_ads1015.h:232:9:int16_t ADSreadADC_Differential_0_1(ADS1xx5_I2C*)	3
+../Core/Inc/ads1115_ads1015.h:277:9:int16_t ADSreadADC_Differential_2_3(ADS1xx5_I2C*)	3
+../Core/Inc/ads1115_ads1015.h:323:6:void ADSstartComparator_SingleEnded(ADS1xx5_I2C*, uint8_t, int16_t)	5
+../Core/Inc/ads1115_ads1015.h:366:9:int16_t ADSgetLastConversionResults(ADS1xx5_I2C*)	3
+../Core/Inc/control_system.h:13:7:float PID_loop()	5
+../Core/Inc/control_system.h:71:6:void Pay_Out_control()	2
+../Core/Inc/control_system.h:89:6:void Pay_In_control()	3
+../Core/Inc/panel.h:43:21:ButtonStates ReadButtons()	1
+../Core/Inc/panel.h:58:21:ButtonStates ReadButtons_Debounced()	1
+../Core/Inc/panel.h:78:11:u8 UpdateOperationMode()	2
+../Core/Inc/panel.h:89:11:u8 UpdateManualControls()	10
+../Core/Inc/panel.h:125:11:u8 UpdateAutoControls()	6
+../Core/Inc/panel.h:145:13:void ControlSystem()	16
+../Core/Inc/encoder.h:42:19:RotationDirection determine_rotation_direction(i32)	1
+../Core/Inc/encoder.h:50:6:void send_cable_info()	1
+../Core/Inc/encoder.h:62:6:void calculate_cable_metrics()	4
+../Core/Inc/encoder.h:112:6:void cable_metrics_init()	1
+../Core/Src/main.cpp:84:5:int main()	1
+../Core/Src/main.cpp:146:6:void SystemClock_Config()	4
+../Core/Src/main.cpp:196:13:void MX_I2C3_Init()	4
+../Core/Src/main.cpp:244:13:void MX_TIM2_Init()	3
+../Core/Src/main.cpp:293:13:void MX_USART1_UART_Init()	2
+../Core/Src/main.cpp:328:13:void MX_USART2_UART_Init()	2
+../Core/Src/main.cpp:364:13:void MX_GPIO_Init()	1
+../Core/Src/main.cpp:434:6:void Error_Handler()	1

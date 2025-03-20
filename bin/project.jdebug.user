@@ -1,0 +1,54 @@
+
+
+GraphedExpression="motor_speed", DisplayFormat=DISPLAY_FORMAT_DEC, Color=#e56a6f
+OpenDocument="Ozone_DataSampling_250310.csv", FilePath="C:/Users/arunp/OneDrive/Desktop/Ozone_DataSampling_250310.csv", Line=0
+OpenDocument="control_system.h", FilePath="D:/code/nuclueo_auto_winch/Core/Inc/control_system.h", Line=0
+OpenDocument="main.cpp", FilePath="D:/code/nuclueo_auto_winch/Core/Src/main.cpp", Line=67
+OpenDocument="stm32l4xx_hal.c", FilePath="D:/code/nuclueo_auto_winch/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c", Line=401
+OpenDocument="stm32l4xx_it.c", FilePath="D:/code/nuclueo_auto_winch/Core/Src/stm32l4xx_it.c", Line=69
+OpenDocument="panel.h", FilePath="D:/code/nuclueo_auto_winch/Core/Inc/panel.h", Line=108
+OpenDocument="encoder.h", FilePath="D:/code/nuclueo_auto_winch/Core/Inc/encoder.h", Line=46
+OpenDocument="modbus_motor.h", FilePath="D:/code/nuclueo_auto_winch/Core/Inc/modbus_motor.h", Line=270
+OpenToolbar="View", Floating=0, x=1, y=0
+OpenToolbar="Debug", Floating=0, x=0, y=0
+OpenWindow="Call Stack", DockArea=BOTTOM, x=0, y=0, w=686, h=488, TabPos=6, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Registers 1", DockArea=BOTTOM, x=0, y=0, w=686, h=488, TabPos=5, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, FilteredItems=[], RefreshRate=1
+OpenWindow="Source Files", DockArea=LEFT, x=0, y=0, w=252, h=997, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Memory 1", DockArea=BOTTOM, x=0, y=0, w=686, h=488, TabPos=7, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, EditorAddress=0x20000032
+OpenWindow="Global Data", DockArea=RIGHT, x=0, y=0, w=1664, h=975, TabPos=3, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Local Data", DockArea=RIGHT, x=0, y=0, w=1664, h=975, TabPos=2, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Watched Data 1", DockArea=BOTTOM, x=1, y=0, w=2193, h=510, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Functions", DockArea=BOTTOM, x=0, y=0, w=686, h=488, TabPos=2, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Memory Usage", DockArea=BOTTOM, x=0, y=0, w=686, h=488, TabPos=1, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Code Profile", DockArea=BOTTOM, x=0, y=0, w=686, h=488, TabPos=0, TopOfStack=1, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, GroupByFiles=0, SortRespectsFilters=0, ParentRelativeLoad=0
+OpenWindow="Terminal", DockArea=BOTTOM, x=0, y=0, w=686, h=488, TabPos=4, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Data Sampling", DockArea=RIGHT, x=0, y=0, w=1664, h=975, TabPos=1, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, VisibleTab=0, UniformSampleSpacing=0
+OpenWindow="Timeline", DockArea=RIGHT, x=0, y=0, w=1664, h=975, TabPos=0, TopOfStack=1, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=1, DataPaneShown=1, PowerPaneShown=0, CodePaneShown=0, PinCursor="Cursor Movable", TimePerDiv="5 s", TimeStampFormat="Time", DataGraphDrawAsPoints=0, DataGraphLegendShown=1, DataGraphUniformSampleSpacing=0, DataGraphLegendPosition="44;26", DataGraphShowNamesAtCursor=0, PowerGraphDrawAsPoints=0, PowerGraphLegendShown=0, PowerGraphAvgFilterTime=Off, PowerGraphAvgFilterLen=Off, PowerGraphUniformSampleSpacing=0, PowerGraphLegendPosition="1435;0", CodeGraphLegendShown=0, CodeGraphLegendPosition="1466;0"
+OpenWindow="Find Results", DockArea=BOTTOM, x=0, y=0, w=686, h=488, TabPos=3, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Console", DockArea=RIGHT, x=0, y=0, w=1664, h=975, TabPos=4, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+SmartViewPlugin="", Page="", Toolbar="Hidden", Window="SmartView 1"
+TableHeader="Call Stack", SortCol="Function", SortOrder="ASCENDING", VisibleCols=["Function";"Stack Frame";"Source";"PC";"Return Address";"Stack Used"], ColWidths=[210;154;212;104;234;100]
+TableHeader="Registers 1", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Description"], ColWidths=[230;223;329]
+TableHeader="Functions", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Address";"Size";"#Insts";"Class";"Source"], ColWidths=[371;321;224;216;283;100]
+TableHeader="Global Data", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Location";"Size";"Type";"Access";"Scope"], ColWidths=[181;100;100;100;460;330;393]
+TableHeader="Local Data", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Location";"Size";"Type";"Access";"Scope"], ColWidths=[105;340;104;100;184;0;831]
+TableHeader="Data Sampling Table", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";" motor_speed"], ColWidths=[100;100;100]
+TableHeader="Data Sampling Setup", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Type";"Value";"Min";"Max";"Average";"# Changes";"Min. Change";"Max. Change"], ColWidths=[114;134;114;100;114;104;115;126;743]
+TableHeader="Source Files", SortCol="File", SortOrder="ASCENDING", VisibleCols=["File";"Status";"Size";"#Insts";"Path"], ColWidths=[300;100;100;100;1940]
+TableHeader="Power Sampling", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Ch 0"], ColWidths=[100;100;1247]
+TableHeader="Watched Data 1", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Value";"Location";"Size";"Refresh";"Type";"Access";"Scope"], ColWidths=[154;342;243;100;120;225;0;1009]
+TableHeader="RegisterSelectionDialog", SortCol="None", SortOrder="ASCENDING", VisibleCols=[], ColWidths=[]
+TableHeader="Code Profile", SortCol="File / Function", SortOrder="ASCENDING", VisibleCols=["File / Function";"Source Coverage";"Inst. Coverage";"Run Count";"Fetch Count";"Load"], ColWidths=[1242;157;174;113;122;104]
+WatchedExpression="currentSpeed", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="currentMode", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="currentDirection", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="encoder_count", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="current_direction ", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="cable_speed", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="cable_length ", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="Prev_Tension", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="error", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="raw_tension", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="Tension", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="motor_speed", RefreshRate=5, Window=Watched Data 1
+WatchedExpression="g_motor_control_value", RefreshRate=5, Window=Watched Data 1
